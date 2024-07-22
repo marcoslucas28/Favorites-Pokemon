@@ -1,0 +1,14 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+:root {
+    --primary-color: #ecd500;
+    --text-color: #1a1919;
+    --white-color: #FFFFFF;
+    --button-color: #79ff03;
+    --input-color: hsla(0, 0%, 46%, 0.5);
+}
