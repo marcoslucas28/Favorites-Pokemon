@@ -71,3 +71,16 @@ body {
 #allPoke {
     display: none;
 }
+
+#content nav{
+    font-size: 1.4rem;
+    display: flex;
+    gap: 2rem;
+    color: var(--white-color);
+    background-color: var(--primary-color);
+    font-weight: bold;
+    padding: 1rem;
+    border-radius: 4px;
+    max-width: 23rem;
+    margin: 2rem auto;
+}
