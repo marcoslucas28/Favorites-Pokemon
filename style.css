@@ -68,10 +68,6 @@ body {
     border-radius: 1rem;
 }
 
-#allPoke {
-    display: none;
-}
-
 #content nav{
     font-size: 1.4rem;
     display: flex;
@@ -83,4 +79,57 @@ body {
     border-radius: 4px;
     max-width: 23rem;
     margin: 2rem auto;
+}
+
+#content nav span {
+    cursor: pointer;
+}
+
+#content nav span:hover {
+    text-decoration: underline;
+}
+
+#allPoke {
+    display: none;
+}
+
+#cardContent {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2.5rem;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    border: 2px var(--primary-color) solid;
+    border-radius: 1rem;
+    padding: 2rem;
+    background-color: #fffedb;
+    cursor: pointer;
+}
+
+.card img {
+    background-color: var(--white-color);
+    border-radius: 999rem;
+}
+
+.card h3 {
+    font-size: 2rem;
+}
+
+.id {
+    background-color: #ffffff;
+    padding: 0.5rem;
+    font-size: 1.4rem;
+    border-radius: 999rem;
+}
+
+
+.type {
+    font-size: 1.2rem;
 }
