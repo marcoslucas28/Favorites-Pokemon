@@ -26,9 +26,9 @@ body {
 }
 
 #app {
-    width: 80rem;
+    width: 100rem;
     max-width: 90%;
-    margin: 2rem auto 0;
+    margin: 2rem auto;
 
 }
 
@@ -66,6 +66,7 @@ body {
     font-weight: bold;
     font-size: 1.4rem;
     border-radius: 1rem;
+    cursor: pointer;
 }
 
 #content nav{
@@ -91,12 +92,17 @@ body {
 
 #allPoke {
     display: none;
+    flex-wrap: wrap;
+    gap: 2.5rem;
+    overflow: auto;
+    max-height: 45rem;
 }
 
 #cardContent {
     display: flex;
     flex-wrap: wrap;
     gap: 2.5rem;
+    overflow: auto;
 }
 
 .card {
